@@ -61,8 +61,8 @@
 
                             <li><a href="#">Donate</a>
                                 <ul>
-                                    <li><a href="news.php">Become a partner</a></li>
-                                    <li><a href="news-single.php">Ministry Partners</a></li>
+                                    <li><a href="become_a_partner.php">Become a partner</a></li>
+                                    <li><a href="ministry_partners.php">Ministry Partners</a></li>
                                 </ul>
                             </li>
                             <li><a href="gallery.php">Gallery</a></li>

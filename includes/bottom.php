@@ -7,10 +7,10 @@
             <div class="col-md-6">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">News</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about_vic.php">About Us</a></li>
+                        <li><a href="events.php">Events</a></li>
+                        <li><a href="news.php">News</a></li>
                         <li><a href="administrator" target="_blank">Admin</a></li>
                     </ul>
                 </nav>
