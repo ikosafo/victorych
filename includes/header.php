@@ -59,12 +59,7 @@
                             </li>
                             <li><a href="sermons.php">Sermons</a></li>
 
-                            <li><a href="#">Donate</a>
-                                <ul>
-                                    <li><a href="become_a_partner.php">Become a partner</a></li>
-                                    <li><a href="ministry_partners.php">Ministry Partners</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="donate.php">Donate</a></li>
                             <li><a href="gallery.php">Gallery</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
@@ -75,8 +70,6 @@
                     <div class="social">
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-rss"></i></a>
-                        <a href="#"><i class="fa fa-google-plus"></i></a>
                         <a href="#"><i class="fa fa-envelope-o"></i></a>
                     </div>
                     <!-- social icons close -->
