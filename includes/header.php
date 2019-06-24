@@ -47,7 +47,7 @@
                                 <ul>
                                     <li><a href="about_vic.php">About VIC</a></li>
                                     <li><a href="history.php">History</a></li>
-                                    <li><a href="headpastor.php">Head Pastor</a></li>
+                                    <li><a href="headpastor.php">Overseer</a></li>
                                     <li><a href="branches.php">Branches</a></li>
                                 </ul>
                             </li>

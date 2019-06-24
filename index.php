@@ -52,7 +52,7 @@
                              data-speed="800"
                              data-start="1600"
                              data-easing="easeInOutCubic">
-                            <a class="btn btn-slider" href="assets/#">Read More</a>
+                            <a class="btn btn-slider" href="#">Read More</a>
                         </div>
                     </li>
 
