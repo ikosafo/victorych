@@ -24,7 +24,7 @@
                              data-start="1000"
                              data-easing="easeInOutCubic"
                              data-endspeed="300">
-                            Transforming Live
+                            With Jesus
                         </div>
 
                         <div class="tp-caption lft custom-font-2"
@@ -33,7 +33,7 @@
                              data-speed="800"
                              data-start="800"
                              data-easing="easeInOutCubic">
-                            Restoring Hope
+                            Victory is sure
                         </div>
 
                         <div class="tp-caption tp-text sfb text-left"
@@ -42,8 +42,8 @@
                              data-speed="800"
                              data-start="1400"
                              data-easing="easeInOutCubic">
-                            Transforming lives and societies through education, research and innovation.<br>
-                            Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<br>
+                            For Counseling, Prayers, any Enquiries<br>
+                            Contact 0245836667 / 0267836667 <br>
                         </div>
 
                         <div class="tp-caption sfb text-left"
