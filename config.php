@@ -9,7 +9,7 @@ if($mysqli->connect_errno){
 }
 session_start();
 
-$reg_root = 'http://church.local';
+//$reg_root = 'http://church.local';
 
 
 function lock($item){

@@ -2,38 +2,46 @@
 
 include('../../../config.php');
 
-$documentid = date("ymdhis").rand(1,10000);
+$homesliderid = date("ymdhis").rand(1,10);
 
 ?>
 
 <div class="row">
+
     <div class="col-md-12">
         <div class="card">
-            <h5 class="card-header">Documents</h5>
+            <div id="error_loc"></div>
+            <h5 class="card-header">Home Page Slider Information</h5>
             <div class="card-body">
 
                 <form>
                     <div class="form-group">
-                        <label for="document_title">Document Title</label>
-                        <input type="text" class="form-control" id="document_title"
+                        <label for="homeslider_text1">First Text (Small) </label>
+                        <input type="text" class="form-control" id="homeslider_text1"
                                placeholder="Enter Document Title">
                     </div>
 
                     <div class="form-group">
-                        <label for="document_description">Description</label>
-                        <textarea class="form-control" id="document_description"
-                                  placeholder="Enter Description"></textarea>
+                        <label for="homeslider_text2">Heading (Large and Bold) </label>
+                        <input type="text" class="form-control" id="homeslider_text2"
+                               placeholder="Enter Document Title">
                     </div>
 
                     <div class="form-group">
-                        <label for="document_upload">File(s)</label>
-                        <input type="file" class="form-control" id="document_upload">
+                        <label for="homeslider_text2">Text Descriptions (Small and Lengthy) </label>
+                        <textarea class="form-control" id="homeslider_description"
+                                  placeholder="Enter Document Title"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="homeslider_upload">Image to display</label>
+                        <input type="file" class="form-control" id="homeslider_upload">
                         <input type="hidden" id="selected"/>
                     </div>
 
                     <div class="form-group">
                         <button style="margin-top: 20px" type="button" class="btn btn-primary"
-                                id="savedocument"><i class="la la-save" style="color: #fff"></i> Save
+                                id="savehomeslider"><i class="la la-save" style="color: #fff"></i> Save
                         </button>
                     </div>
 
@@ -46,15 +54,16 @@ $documentid = date("ymdhis").rand(1,10000);
 
 <script>
 
-    $('#document_upload').uploadifive({
+
+    $('#homeslider_upload').uploadifive({
         'auto': false,
         'method': 'post',
-        'buttonText': 'Upload document',
+        'buttonText': 'Upload homeslider',
         'multi': false,
         'width': 180,
-        'formData': {'randno': '<?php echo $documentid ?>'},
+        'formData': {'randno': '<?php echo $homesliderid ?>'},
         'dnd': false,
-        'uploadScript': 'ajax/queries/upload_document.php',
+        'uploadScript': 'ajax/queries/upload_homeslider.php',
         'onUploadComplete': function (file, data) {
             console.log(data);
         },
@@ -71,20 +80,31 @@ $documentid = date("ymdhis").rand(1,10000);
 
 
 
-    $("#savedocument").click(function () {
+    $("#savehomeslider").click(function () {
 
-        var document_title = $("#document_title").val();
-        var document_description = $("#document_description").val();
-        var document_id = '<?php echo $documentid; ?>';
+        var homeslider_text1 = $("#homeslider_text1").val();
+        var homeslider_text2 = $("#homeslider_text2").val();
+        var homeslider_description = $("#homeslider_description").val();
+        var homeslider_id = '<?php echo $homesliderid; ?>';
 
-        //alert(document_name);
+        //alert(homeslider_name);
 
         var error = '';
 
 
-        if (document_title == "") {
-            error += 'Please enter document title \n';
-            $('#document_title').focus();
+        if (homeslider_text1 == "") {
+            error += 'Please enter first text \n';
+            $('#homeslider_text1').focus();
+        }
+
+        if (homeslider_text2 == "") {
+            error += 'Please enter heading \n';
+            $('#homeslider_text2').focus();
+        }
+
+        if (homeslider_description == "") {
+            error += 'Please enter description \n';
+            $('#homeslider_description').focus();
         }
 
 
@@ -93,7 +113,7 @@ $documentid = date("ymdhis").rand(1,10000);
 
             $.ajax({
                 type: "POST",
-                url: "ajax/queries/saveform_document.php",
+                url: "ajax/queries/saveform_homeslider.php",
                 beforeSend: function () {
                     $.blockUI({
                         message: '<img src="assets/img/load.gif"/>'
@@ -101,9 +121,9 @@ $documentid = date("ymdhis").rand(1,10000);
                 },
                 data: {
 
-                    document_title: document_title,
-                    document_description: document_description,
-                    document_id: document_id
+                    homeslider_title: homeslider_title,
+                    homeslider_description: homeslider_description,
+                    homeslider_id: homeslider_id
                 },
                 success: function (text) {
 
@@ -113,15 +133,15 @@ $documentid = date("ymdhis").rand(1,10000);
 
                     if (selected == 'yes') {
 
-                        $('#document_upload').uploadifive('upload');
+                        $('#homeslider_upload').uploadifive('upload');
 
 
                         $.notify("Profile Saved", "success", {position: "top center"});
 
                         $.ajax({
-                            url: "ajax/forms/document_form.php",
+                            url: "ajax/forms/homeslider_form.php",
                             success: function (text) {
-                                $('#document_form_div').html(text);
+                                $('#homeslider_form_div').html(text);
                             },
                             error: function (xhr, ajaxOptions, thrownError) {
                                 alert(xhr.status + " " + thrownError);
@@ -131,9 +151,9 @@ $documentid = date("ymdhis").rand(1,10000);
 
 
                         $.ajax({
-                            url: "ajax/tables/document_table.php",
+                            url: "ajax/tables/homeslider_table.php",
                             success: function (text) {
-                                $('#document_table_div').html(text);
+                                $('#homeslider_table_div').html(text);
                             },
                             error: function (xhr, ajaxOptions, thrownError) {
                                 alert(xhr.status + " " + thrownError);
@@ -150,7 +170,7 @@ $documentid = date("ymdhis").rand(1,10000);
 
                     } else {
 
-                        $.notify("Please select a file to upload", {position: "top center"});
+                        $('#error_loc').notify("Please select a file to upload");
 
                     }
 
@@ -172,7 +192,7 @@ $documentid = date("ymdhis").rand(1,10000);
 
         else {
 
-            $.notify(error, {position: "top center"});
+            $('#error_loc').notify(error);
 
         }
 

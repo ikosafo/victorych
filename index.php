@@ -5,6 +5,9 @@
         <div class="fullwidthbanner-container">
             <div id="revolution-slider">
                 <ul>
+
+
+
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="1500">
                         <!--  BACKGROUND IMAGE -->
                         <img src="assets/img-rev-slider/bg-1.jpg" alt="">
@@ -56,6 +59,9 @@
                         </div>
                     </li>
 
+
+
+
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="1500">
                         <!--  BACKGROUND IMAGE -->
                         <img src="assets/img-rev-slider/bg-2.jpg" alt="">
@@ -97,6 +103,8 @@
                             <a class="btn btn-slider" href="assets/#">Read More</a>
                         </div>
                     </li>
+
+
 
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="1500">
                         <!--  BACKGROUND IMAGE -->

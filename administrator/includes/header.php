@@ -18,7 +18,7 @@ if (!isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Church Admin System | Christ Vision Sanctuary International</title>
+    <title>CMS | Victory Chapel International</title>
     <!-- ================== GOOGLE FONTS ==================-->
     <link href="https@fonts.googleapis.com/css@family=Poppins_3A300,400,500" rel="stylesheet">
     <!-- ======================= GLOBAL VENDOR STYLES ========================-->
@@ -130,10 +130,13 @@ if (!isset($_SESSION['username'])) {
             <nav class="main-menu">
                 <ul class="nav metismenu">
                     <li class="sidebar-header"><span>MAIN</span></li>
-                    <li class="<?php echo($_SERVER['PHP_SELF'] == "/cv_admin/index.php"
+
+                    <li class="<?php echo($_SERVER['PHP_SELF'] == "/administrator/index.php"
                         ? "active" : ""); ?> nav-dropdown">
-                        <a href="index.php"><i class="icon dripicons-meter"></i><span>Dashboard</span></a>
+                        <a href="index.php"><i class="icon-picture"></i><span>Home Page Slider</span></a>
                     </li>
+
+
                     <li class="<?php echo($_SERVER['PHP_SELF'] == "/cv_admin/branches.php" ||
                     $_SERVER['PHP_SELF'] == "/cv_admin/sms_api_key.php" ||
                     $_SERVER['PHP_SELF'] == "/cv_admin/system_users.php" ||
@@ -277,37 +280,7 @@ if (!isset($_SESSION['username'])) {
         <!-- START TOP TOOLBAR WRAPPER -->
         <nav class="top-toolbar navbar navbar-desktop flex-nowrap">
             <!-- START LEFT DROPDOWN MENUS -->
-            <ul class="navbar-nav nav-left">
-                <li class="nav-item nav-text dropdown dropdown-menu-md">
-                    <a href="javascript:void(0)" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">
-							<span>
-								Branches
-							</span>
-                        <i class="zmdi zmdi-chevron-down zmdi-hc-fw menu-arrow-down"></i>
-                    </a>
-                    <div class="dropdown-menu menu-icons dropdown-menu-left">
-                        <div class="form-group form-filter">
-                            <input type="text" placeholder="Search Branch..." class="form-control filter-input"
-                                   data-search-trigger="open">
-                            <i data-q-action="clear-filter" class="icon dripicons-cross clear-filter"></i>
-                            <ul class="list-reset filter-list" data-scroll="minimal-dark">
 
-                                <?php
-                                $getbranch = $mysqli->query("select * from branch ORDER BY name");
-                                while ($resbranch = $getbranch->fetch_assoc()) { ?>
-                                    <li><a class="dropdown-item" href="#"><?php echo $resbranch['name'] ?></a></li>
-                                <?php } ?>
-
-
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <!-- START MEGA MENU -->
-
-                <!-- END MEGA MENU -->
-            </ul>
             <!-- END LEFT DROPDOWN MENUS -->
             <!-- START RIGHT TOOLBAR ICON MENUS -->
             <ul class="navbar-nav nav-right">
