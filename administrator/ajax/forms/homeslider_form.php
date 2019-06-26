@@ -2,7 +2,7 @@
 
 include('../../../config.php');
 
-$homesliderid = date("ymdhis").rand(1,10);
+$homesliderid = date("ymdhis") . rand(1, 10);
 
 ?>
 
@@ -79,7 +79,6 @@ $homesliderid = date("ymdhis").rand(1,10);
     });
 
 
-
     $("#savehomeslider").click(function () {
 
         var homeslider_text1 = $("#homeslider_text1").val();
@@ -121,13 +120,14 @@ $homesliderid = date("ymdhis").rand(1,10);
                 },
                 data: {
 
-                    homeslider_title: homeslider_title,
+                    homeslider_text1: homeslider_text1,
+                    homeslider_text2: homeslider_text2,
                     homeslider_description: homeslider_description,
                     homeslider_id: homeslider_id
                 },
                 success: function (text) {
 
-                    alert(text);
+                    //alert(text);
 
                     var selected = $("#selected").val();
 
@@ -162,10 +162,16 @@ $homesliderid = date("ymdhis").rand(1,10);
                         });
 
 
-                        /* setTimeout(function () {
-                             window.location.href = 'provisional_registration.php'; // the redirect goes here
+                        $.ajax({
+                            url: "ajax/tables/homeslider_table.php",
+                            success: function (text) {
+                                $('#homeslider_table_div').html(text);
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+                                alert(xhr.status + " " + thrownError);
+                            },
 
-                         }, 2500);*/
+                        });
 
 
                     } else {
@@ -173,7 +179,6 @@ $homesliderid = date("ymdhis").rand(1,10);
                         $('#error_loc').notify("Please select a file to upload");
 
                     }
-
 
 
                 },

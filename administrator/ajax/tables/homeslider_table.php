@@ -1,25 +1,25 @@
 <?php include ('../../../config.php');
 
-$dep = $mysqli->query("select * from document ORDER by period_uploaded");
+$getslider = $mysqli->query("select * from homeslider ORDER by period");
 
 
 ?>
 
     <div class="card">
 
-        <h5 class="card-header">Details <strong>
+        <h5 class="card-header">Sliders <strong>
 
             </strong></h5>
         <div class="card-body">
 
-            <table id="bs4-table" class="table table-striped table-bordered"
+            <table id="bs4-table" class="table table-responsive table-striped table-bordered"
                    style="width:100% !important;">
                 <thead>
                 <tr>
-                    <th>Branch</th>
-                    <th>Title</th>
+                    <th>Text 1</th>
+                    <th>Text 2</th>
                     <th>Description</th>
-                    <th>File</th>
+                    <th>Image</th>
                     <th>Delete</th>
 
                 </tr>
@@ -27,26 +27,22 @@ $dep = $mysqli->query("select * from document ORDER by period_uploaded");
                 <tbody>
 
                 <?php
-                while ($resdep = $dep->fetch_assoc()) {
+                while ($resslider = $getslider->fetch_assoc()) {
 
 
                     ?>
                     <tr>
-                        <td><?php echo $resdep['branch']; ?></td>
-                        <td><?php echo $resdep['document_title']; ?></td>
-                        <td><?php echo $resdep['document_description']; ?></td>
+                        <td><?php echo $resslider['text1']; ?></td>
+                        <td><?php echo $resslider['text2']; ?></td>
+                        <td><?php echo $resslider['description']; ?></td>
                         <td>
-                            <button type="button"
-                                    class="btn btn-sm btn-info view_document"
-                                    i_index="<?php echo $resdep['id']; ?>"
-                                    title="View file(s)">Click to view document
-                            </button>
+                           <img src="../<?php echo $resslider['imagelocation'] ?>" width="50" height="50"/>
                         </td>
                         <td>
                             <button type="button"
                                     data-type="confirm"
-                                    class="btn btn-sm btn-danger js-sweetalert delete_document"
-                                    i_index="<?php echo $resdep['id']; ?>"
+                                    class="btn btn-sm btn-danger js-sweetalert delete_slider"
+                                    i_index="<?php echo $resslider['id']; ?>"
                                     title="Delete">
                                 <i class="icon-trash" style="color:#fff !important;"></i>
                             </button>
@@ -82,7 +78,7 @@ $dep = $mysqli->query("select * from document ORDER by period_uploaded");
 
 
 
-        $(document).on('click', '.delete_document', function () {
+        $(document).on('click', '.delete_slider', function () {
             var i_index = $(this).attr('i_index');
 
             //alert(i_index);
@@ -103,7 +99,7 @@ $dep = $mysqli->query("select * from document ORDER by period_uploaded");
 
                         $.ajax({
                             type: "POST",
-                            url: "ajax/queries/delete_document.php",
+                            url: "ajax/queries/delete_slider.php",
                             data: {
                                 i_index: i_index
                             },
@@ -113,14 +109,14 @@ $dep = $mysqli->query("select * from document ORDER by period_uploaded");
 
                                 $.ajax({
                                     type: "POST",
-                                    url: "ajax/tables/document_table.php",
+                                    url: "ajax/tables/homeslider_table.php",
                                     beforeSend: function () {
                                         $.blockUI({
                                             message: '<img src="assets/img/load.gif"/>'
                                         });
                                     },
                                     success: function (text) {
-                                        $('#document_table_div').html(text);
+                                        $('#homeslider_table_div').html(text);
                                     },
                                     error: function (xhr, ajaxOptions, thrownError) {
                                         alert(xhr.status + " " + thrownError);
@@ -141,7 +137,7 @@ $dep = $mysqli->query("select * from document ORDER by period_uploaded");
                             }
                         });
 
-                        swal("Deleted!", "Document has been deleted.", "success");
+                        swal("Deleted!", "Slider has been deleted.", "success");
 
                     } else {
                         swal("Cancelled", "Data is safe.", "error");
