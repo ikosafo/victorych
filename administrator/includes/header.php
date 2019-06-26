@@ -159,6 +159,11 @@ if (!isset($_SESSION['username'])) {
                         <a href="overseer.php"><i class="icon dripicons-user"></i><span>Overseer Message</span></a>
                     </li>
 
+                    <li class="<?php echo($_SERVER['PHP_SELF'] == "/administrator/branches.php"
+                        ? "active" : ""); ?> nav-dropdown">
+                        <a href="branches.php"><i class="icon dripicons-crosshair"></i><span>Branches</span></a>
+                    </li>
+
 
                     <li class="sidebar-header"><span>OTHERS</span></li>
                     <li class="<?php echo(
@@ -174,29 +179,6 @@ if (!isset($_SESSION['username'])) {
                     </li>
 
 
-                    <li class="nav-dropdown">
-                        <a href="birthdays.php"><i class="icon icon-emotsmile"></i><span>Birthdays</span></a>
-                    </li>
-                    <li class="nav-dropdown">
-                        <a class="has-arrow" href="#" aria-expanded="false"><i
-                                    class="icon icon-calculator"></i><span>Accounts</span></a>
-                        <ul class="collapse nav-sub" aria-expanded="false">
-                            <li><a href="account_inputs.php"><span>Account Inputs</span></a></li>
-                            <li><a href="account_expenses.php"><span>Expenses</span></a></li>
-                            <li><a href="account_bank_transaction.php"><span>Bank Transaction</span></a></li>
-                            <li><a href="account_balance_sheet.php"><span>Balance Sheet</span></a></li>
-                            <li><a href="account_search.php"><span>Search</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-dropdown">
-                        <a class="has-arrow" href="#" aria-expanded="false"><i
-                                    class="icon dripicons-blog"></i><span>Asset Register/Inv.</span></a>
-                        <ul class="collapse nav-sub" aria-expanded="false">
-                            <li><a href="inventory_category.php"><span>Categories</span></a></li>
-                            <li><a href="inventory_entry.php"><span>Entry</span></a></li>
-                            <li><a href="inventory_search.php"><span>Search</span></a></li>
-                        </ul>
-                    </li>
 
                     <li><a href="login.php"><i class="icon icon-logout"></i><span>Log Out</span></a>
                     </li>

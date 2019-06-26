@@ -7,7 +7,7 @@ $getscriptures = $mysqli->query("select * from scriptures ORDER by id DESC");
 
     <div class="card">
 
-        <h5 class="card-header">scriptures <strong>
+        <h5 class="card-header">Scriptures <strong>
 
             </strong></h5>
         <div class="card-body">
