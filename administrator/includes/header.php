@@ -58,6 +58,8 @@ if (!isset($_SESSION['username'])) {
 
     <link rel="stylesheet" href="assets/vendor/bootstrap-daterangepicker/daterangepicker.css">
 
+    <link rel="stylesheet" href="assets/vendor/summernote/dist/summernote.css">
+
 
 
 
@@ -152,6 +154,11 @@ if (!isset($_SESSION['username'])) {
                         <a href="about_vic.php"><i class="icon dripicons-home"></i><span>About VIC</span></a>
                     </li>
 
+                    <li class="<?php echo($_SERVER['PHP_SELF'] == "/administrator/overseer.php"
+                        ? "active" : ""); ?> nav-dropdown">
+                        <a href="overseer.php"><i class="icon dripicons-user"></i><span>Overseer Message</span></a>
+                    </li>
+
 
                     <li class="sidebar-header"><span>OTHERS</span></li>
                     <li class="<?php echo(
@@ -165,22 +172,8 @@ if (!isset($_SESSION['username'])) {
                             <li><a href="attendance_search.php"><span>Search Details</span></a></li>
                         </ul>
                     </li>
-                    <li class="nav-dropdown">
-                        <a class="has-arrow" href="#" aria-expanded="false"><i class="icon dripicons-wallet"></i><span>Financials</span></a>
-                        <ul class="collapse nav-sub" aria-expanded="false">
-                            <li><a href="tithe.php"><span>Tithe</span></a></li>
-                            <li><a href="welfare.php"><span>Welfare</span></a></li>
-                            <li><a href="contributions.php"><span>Contributions</span></a></li>
-                            <li><a href="welfare.php"><span>Welfare</span></a></li>
-                            <li><a href="first_fruit.php"><span>First Fruit</span></a></li>
-                            <li><a href="ministry_partners.php"><span>Ministry Partners</span></a></li>
-                            <li><a href="financials_search.php"><span>Search</span></a></li>
 
-                        </ul>
-                    </li>
-                    <li class="nav-dropdown">
-                        <a href="sms.php"><i class="icon icon-envelope-letter"></i><span>SMS</span></a>
-                    </li>
+
                     <li class="nav-dropdown">
                         <a href="birthdays.php"><i class="icon icon-emotsmile"></i><span>Birthdays</span></a>
                     </li>

@@ -50,6 +50,7 @@
                                     <li><a href="history.php">History</a></li>
                                     <li><a href="headpastor.php">Overseer</a></li>
                                     <li><a href="branches.php">Branches</a></li>
+                                    <li><a href="pastors.php">Pastors</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Events</a>
