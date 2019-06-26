@@ -147,6 +147,11 @@ if (!isset($_SESSION['username'])) {
                         <a href="scriptures.php"><i class="icon dripicons-blog"></i><span>Bible Scriptures</span></a>
                     </li>
 
+                    <li class="<?php echo($_SERVER['PHP_SELF'] == "/administrator/about_vic.php"
+                        ? "active" : ""); ?> nav-dropdown">
+                        <a href="about_vic.php"><i class="icon dripicons-home"></i><span>About VIC</span></a>
+                    </li>
+
 
                     <li class="sidebar-header"><span>OTHERS</span></li>
                     <li class="<?php echo(
