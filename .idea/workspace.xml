@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="da7e53f6-06ff-4d3c-89c7-747a7823a195" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/administrator/ajax/forms/homeslider_form.php" afterPath="$PROJECT_DIR$/administrator/ajax/forms/homeslider_form.php" />
-      <change beforePath="$PROJECT_DIR$/administrator/ajax/queries/saveform_homeslider.php" afterPath="$PROJECT_DIR$/administrator/ajax/queries/saveform_homeslider.php" />
-      <change beforePath="$PROJECT_DIR$/administrator/ajax/tables/document_table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/administrator/includes/header.php" afterPath="$PROJECT_DIR$/administrator/includes/header.php" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,83 +16,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="events_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/events_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2727">
-              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/includes/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="135" column="38" lean-forward="false" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload_homeslider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/upload_homeslider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
               <folding>
-                <marker date="1561511882784" expanded="true" signature="827:878" ph="select * fro... homeslider" />
-                <marker date="1561511882784" expanded="true" signature="973:1273" ph="INSERT INTO `member_images`... " />
-                <marker date="1561511882784" expanded="true" signature="1343:1396" ph="select * fro... homeslider" />
-                <marker date="1561511882784" expanded="true" signature="1609:1809" ph="UPDATE `homeslider`... " />
+                <element signature="n#style#0;n#button#0;n#div#6;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#button#0;n#div#6;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saveform_homeslider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_homeslider.php">
+      <file leaf-file-name="saveform_events.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+            <state relative-caret-position="513">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
-                <marker date="1561509142613" expanded="true" signature="409:467" ph="select * fro... homeslider" />
-                <marker date="1561509142613" expanded="true" signature="549:803" ph="INSERT INTO `homeslider`... " />
-                <marker date="1561509142613" expanded="true" signature="896:1069" ph="UPDATE `victorych`.`homeslider`... " />
+                <marker date="1561546940231" expanded="true" signature="587:626" ph="select * fro... events" />
+                <marker date="1561546940231" expanded="true" signature="587:635" ph="select * fro... events" />
+                <marker date="1561546940231" expanded="true" signature="717:1051" ph="INSERT INTO `events`... " />
+                <marker date="1561546940231" expanded="true" signature="1143:1401" ph="UPDATE `events`... " />
+                <marker date="1561546940231" expanded="true" signature="1400:1401" ph="UPDATE `homeslider`... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/index.php">
+      <file leaf-file-name="events_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/events_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1661">
-              <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homeslider_form.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/homeslider_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="173" column="27" lean-forward="false" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homeslider_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/homeslider_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+            <state relative-caret-position="226">
+              <caret line="105" column="63" lean-forward="false" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="63" />
               <folding>
-                <marker date="1561511955715" expanded="true" signature="69:109" ph="select * fro... homeslider" />
-                <marker date="1561511955715" expanded="true" signature="1241:1283" ph="..." />
+                <element signature="e#360#390#0#HTML" expanded="true" />
+                <element signature="e#1867#1897#0#HTML" expanded="true" />
+                <marker date="1561546940119" expanded="true" signature="68:104" ph="select * fro... events" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_event.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/delete_event.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+              <folding>
+                <marker date="1561546940284" expanded="true" signature="97:143" ph="select * fro... events" />
+                <marker date="1561546940284" expanded="true" signature="322:362" ph="delete from events... " />
+                <marker date="1561546940284" expanded="true" signature="358:362" ph="delete from homeslider... " />
               </folding>
             </state>
           </provider>
@@ -101,13 +76,76 @@
       <file leaf-file-name="delete_slider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/delete_slider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="54">
+              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               <folding>
                 <marker date="1561511882906" expanded="true" signature="101:155" ph="select * fro... homeslider" />
                 <marker date="1561511882906" expanded="true" signature="334:382" ph="delete from homeslider... " />
                 <marker date="1561511882906" expanded="true" signature="378:382" ph="delete from f_welfare... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeslider_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/homeslider_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <marker date="1561511955715" expanded="true" signature="69:109" ph="select * fro... homeslider" />
+                <marker date="1561511955715" expanded="true" signature="1241:1283" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload_event.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/upload_event.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+              <folding>
+                <marker date="1561546340008" expanded="true" signature="824:870" ph="select * fro... events" />
+                <marker date="1561546340008" expanded="true" signature="965:1260" ph="INSERT INTO `events`... " />
+                <marker date="1561546340008" expanded="true" signature="1330:1378" ph="select * fro... events" />
+                <marker date="1561546340008" expanded="true" signature="1591:1786" ph="UPDATE `events`... " />
+                <marker date="1561546340008" expanded="true" signature="1771:1786" ph="UPDATE `homeslider`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attendance_search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../church_it/cv_branch/attendance_search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-81">
+              <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_attendance.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../church_it/cv_branch/ajax/queries/search_attendance.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1561019152342" expanded="true" signature="204:336" ph="SELECT * FRO... attendance" />
+                <marker date="1561019152342" expanded="true" signature="1039:1088" ph="select * fro... member" />
+                <marker date="1561019152342" expanded="true" signature="1414:1459" ph="select * fro... service" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeslider_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/homeslider_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="155" column="18" lean-forward="false" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,6 +168,10 @@
       <find>selec</find>
       <find>document</find>
       <find>welfare</find>
+      <find>sli</find>
+      <find>slider</find>
+      <find>homeevent</find>
+      <find>homeslider</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;assets/js</replace>
@@ -140,6 +182,8 @@
       <replace>src=&quot;assets/img</replace>
       <replace>.php</replace>
       <replace>homeslider</replace>
+      <replace>event</replace>
+      <replace>events</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -163,21 +207,27 @@
         <option value="$PROJECT_DIR$/events.php" />
         <option value="$PROJECT_DIR$/events_gallery.php" />
         <option value="$PROJECT_DIR$/sermons.php" />
-        <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/news.php" />
         <option value="$PROJECT_DIR$/donate.php" />
-        <option value="$PROJECT_DIR$/administrator/ajax/queries/loginaction.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/administrator/homeslider.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/administrator/login.php" />
-        <option value="$PROJECT_DIR$/administrator/includes/header.php" />
         <option value="$PROJECT_DIR$/administrator/index.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/queries/saveform_homeslider.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/queries/delete_slider.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/queries/upload_homeslider.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/tables/homeslider_table.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/forms/homeslider_form.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/queries/loginaction.php" />
+        <option value="$PROJECT_DIR$/administrator/login.php" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/administrator/events.php" />
+        <option value="$PROJECT_DIR$/administrator/includes/header.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/forms/events_form.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/queries/upload_event.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/queries/saveform_events.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/tables/events_table.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/queries/delete_event.php" />
       </list>
     </option>
   </component>
@@ -242,6 +292,17 @@
               <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tables" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="victorych" type="b2602c69:ProjectViewProjectNode" />
+              <item name="victorych" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="administrator" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="victorych" type="b2602c69:ProjectViewProjectNode" />
+              <item name="victorych" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uploads" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -280,12 +341,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560791197955</updated>
       <workItem from="1560791201121" duration="16932000" />
-      <workItem from="1561110581614" duration="10894000" />
+      <workItem from="1561110581614" duration="15671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27826000" />
+    <option name="totallyTimeSpent" value="32603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
@@ -342,61 +403,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="45" column="60" lean-forward="false" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/assets/js/rev-setting-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vision.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mission_statement.php" />
-    <entry file="file://$PROJECT_DIR$/sermons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="109" column="30" lean-forward="true" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index-2.html" />
     <entry file="file://$PROJECT_DIR$/index-3.html" />
     <entry file="file://$PROJECT_DIR$/contact.html" />
@@ -555,14 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="71" column="69" lean-forward="false" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/documents.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -579,42 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/loginaction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="214" column="20" lean-forward="true" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="135" column="38" lean-forward="false" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/homeslider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1661">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -630,31 +596,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2727">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/document_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_homeslider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding>
-            <marker date="1561509142613" expanded="true" signature="409:467" ph="select * fro... homeslider" />
-            <marker date="1561509142613" expanded="true" signature="549:803" ph="INSERT INTO `homeslider`... " />
-            <marker date="1561509142613" expanded="true" signature="896:1069" ph="UPDATE `victorych`.`homeslider`... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,10 +614,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <marker date="1561543741461" expanded="true" signature="318:358" ph="select * fro... homeslider" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../church_it/cv_admin/ajax/queries/loginaction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1560895834478" expanded="true" signature="219:348" ph="SELECT * FRO... users_adminmain" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/loginaction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <marker date="1561543836182" expanded="true" signature="219:338" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="225" column="22" lean-forward="false" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_homeslider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <marker date="1561509142613" expanded="true" signature="409:467" ph="select * fro... homeslider" />
+            <marker date="1561509142613" expanded="true" signature="549:803" ph="INSERT INTO `homeslider`... " />
+            <marker date="1561509142613" expanded="true" signature="896:1069" ph="UPDATE `victorych`.`homeslider`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/upload_homeslider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <marker date="1561511882784" expanded="true" signature="827:878" ph="select * fro... homeslider" />
             <marker date="1561511882784" expanded="true" signature="973:1273" ph="INSERT INTO `member_images`... " />
@@ -681,10 +709,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/upload_event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+          <folding>
+            <marker date="1561546340008" expanded="true" signature="824:870" ph="select * fro... events" />
+            <marker date="1561546340008" expanded="true" signature="965:1260" ph="INSERT INTO `events`... " />
+            <marker date="1561546340008" expanded="true" signature="1330:1378" ph="select * fro... events" />
+            <marker date="1561546340008" expanded="true" signature="1591:1786" ph="UPDATE `events`... " />
+            <marker date="1561546340008" expanded="true" signature="1771:1786" ph="UPDATE `homeslider`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/homeslider_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="155" column="18" lean-forward="false" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/homeslider_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        <state relative-caret-position="269">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <marker date="1561511955715" expanded="true" signature="69:109" ph="select * fro... homeslider" />
             <marker date="1561511955715" expanded="true" signature="1241:1283" ph="..." />
@@ -692,10 +742,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../church_it/cv_branch/attendance_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../church_it/cv_branch/ajax/queries/search_attendance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1561019152342" expanded="true" signature="204:336" ph="SELECT * FRO... attendance" />
+            <marker date="1561019152342" expanded="true" signature="1039:1088" ph="select * fro... member" />
+            <marker date="1561019152342" expanded="true" signature="1414:1459" ph="select * fro... service" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/events_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#6;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#button#0;n#div#6;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <marker date="1561546940231" expanded="true" signature="587:626" ph="select * fro... events" />
+            <marker date="1561546940231" expanded="true" signature="587:635" ph="select * fro... events" />
+            <marker date="1561546940231" expanded="true" signature="717:1051" ph="INSERT INTO `events`... " />
+            <marker date="1561546940231" expanded="true" signature="1143:1401" ph="UPDATE `events`... " />
+            <marker date="1561546940231" expanded="true" signature="1400:1401" ph="UPDATE `homeslider`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/events_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="105" column="63" lean-forward="false" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="63" />
+          <folding>
+            <element signature="e#360#390#0#HTML" expanded="true" />
+            <element signature="e#1867#1897#0#HTML" expanded="true" />
+            <marker date="1561546940119" expanded="true" signature="68:104" ph="select * fro... events" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/delete_slider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="54">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding>
             <marker date="1561511882906" expanded="true" signature="101:155" ph="select * fro... homeslider" />
             <marker date="1561511882906" expanded="true" signature="334:382" ph="delete from homeslider... " />
@@ -704,11 +811,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/homeslider_form.php">
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/delete_event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="173" column="27" lean-forward="false" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="486">
+          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding>
+            <marker date="1561546940284" expanded="true" signature="97:143" ph="select * fro... events" />
+            <marker date="1561546940284" expanded="true" signature="322:362" ph="delete from events... " />
+            <marker date="1561546940284" expanded="true" signature="358:362" ph="delete from homeslider... " />
+          </folding>
         </state>
       </provider>
     </entry>
