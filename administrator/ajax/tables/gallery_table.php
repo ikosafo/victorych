@@ -19,8 +19,6 @@ $getgallery = $mysqli->query("select * from eventgallery ORDER by id DESC");
                     <th>Event Name</th>
                     <th>Pictures</th>
 
-                    <th>Delete</th>
-
                 </tr>
                 </thead>
                 <tbody>
@@ -40,22 +38,22 @@ $getgallery = $mysqli->query("select * from eventgallery ORDER by id DESC");
                             $getpics = $mysqli->query("select * from gallery where galleryid = '$galleryid'");
                             while ($respics = $getpics->fetch_assoc()) {
                                 ?>
-                                <img src="../<?php echo $respics['imagelocation'] ?>" width="100" height="100"/><br/><hr/>
+                                <img src="../<?php echo $respics['imagelocation'] ?>" width="90" height="90"/>
+
+                                <button type="button"
+                                        data-type="confirm"
+                                        class="btn btn-sm btn-danger js-sweetalert delete_picture ml-5"
+                                        i_index="<?php echo $respics['id']; ?>"
+                                        title="Delete">
+                                    <i class="icon-trash" style="color:#fff !important;"></i>
+                                </button>
+
+                                <br/><hr/>
                                 <?php
                             }
                             ?>
 
 
-
-                        </td>
-                        <td>
-                            <button type="button"
-                                    data-type="confirm"
-                                    class="btn btn-sm btn-danger js-sweetalert delete_gallery"
-                                    i_index="<?php echo $resgallery['id']; ?>"
-                                    title="Delete">
-                                <i class="icon-trash" style="color:#fff !important;"></i>
-                            </button>
 
                         </td>
 
@@ -83,7 +81,7 @@ $getgallery = $mysqli->query("select * from eventgallery ORDER by id DESC");
         });
 
 
-        $(document).on('click', '.delete_gallery', function () {
+        $(document).on('click', '.delete_picture', function () {
             var i_index = $(this).attr('i_index');
 
             //alert(i_index);
@@ -104,7 +102,7 @@ $getgallery = $mysqli->query("select * from eventgallery ORDER by id DESC");
 
                         $.ajax({
                             type: "POST",
-                            url: "ajax/queries/delete_gallery.php",
+                            url: "ajax/queries/delete_picture.php",
                             data: {
                                 i_index: i_index
                             },
@@ -114,14 +112,14 @@ $getgallery = $mysqli->query("select * from eventgallery ORDER by id DESC");
 
                                 $.ajax({
                                     type: "POST",
-                                    url: "ajax/tables/gallerys_table.php",
+                                    url: "ajax/tables/gallery_table.php",
                                     beforeSend: function () {
                                         $.blockUI({
                                             message: '<img src="assets/img/load.gif"/>'
                                         });
                                     },
                                     success: function (text) {
-                                        $('#gallerys_table_div').html(text);
+                                        $('#gallery_table_div').html(text);
                                     },
                                     error: function (xhr, ajaxOptions, thrownError) {
                                         alert(xhr.status + " " + thrownError);
@@ -142,7 +140,7 @@ $getgallery = $mysqli->query("select * from eventgallery ORDER by id DESC");
                             }
                         });
 
-                        swal("Deleted!", "gallery has been deleted.", "success");
+                        swal("Deleted!", "Image has been deleted.", "success");
 
                     } else {
                         swal("Cancelled", "Data is safe.", "error");
@@ -154,36 +152,3 @@ $getgallery = $mysqli->query("select * from eventgallery ORDER by id DESC");
 
     </script>
 
-
-<?php
-function time_elapsed_string($datetime, $full = false)
-{
-    $now = new DateTime;
-    $ago = new DateTime($datetime);
-    $diff = $now->diff($ago);
-
-    $diff->w = floor($diff->d / 7);
-    $diff->d -= $diff->w * 7;
-
-    $string = array(
-        'y' => 'year',
-        'm' => 'month',
-        'w' => 'week',
-        'd' => 'day',
-        'h' => 'hour',
-        'i' => 'minute',
-        's' => 'second',
-    );
-    foreach ($string as $k => &$v) {
-        if ($diff->$k) {
-            $v = $diff->$k . ' ' . $v . ($diff->$k > 1 ? 's' : '');
-        } else {
-            unset($string[$k]);
-        }
-    }
-
-    if (!$full) $string = array_slice($string, 0, 1);
-    return $string ? implode(', ', $string) . ' ago' : 'just now';
-}
-
-?>
