@@ -164,6 +164,11 @@ if (!isset($_SESSION['username'])) {
                         <a href="branches.php"><i class="icon dripicons-crosshair"></i><span>Branches</span></a>
                     </li>
 
+                    <li class="<?php echo($_SERVER['PHP_SELF'] == "/administrator/pastors.php"
+                        ? "active" : ""); ?> nav-dropdown">
+                        <a href="pastors.php"><i class="icon-people"></i><span>Pastors</span></a>
+                    </li>
+
 
                     <li class="sidebar-header"><span>OTHERS</span></li>
                     <li class="<?php echo(
