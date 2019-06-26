@@ -154,7 +154,7 @@ $eventsid = date("ymdhis") . rand(1, 10);
                 },
                 data: {
 
-                    event_name: event_name,
+                event_name: event_name,
                 event_date: event_date,
                 event_time: event_time,
                 event_venue: event_venue,
@@ -175,40 +175,7 @@ $eventsid = date("ymdhis") . rand(1, 10);
 
                         $.notify("Profile Saved", "success", {position: "top center"});
 
-                        $.ajax({
-                            url: "ajax/forms/events_form.php",
-                            success: function (text) {
-                                $('#events_form_div').html(text);
-                            },
-                            error: function (xhr, ajaxOptions, thrownError) {
-                                alert(xhr.status + " " + thrownError);
-                            },
-
-                        });
-
-
-                        $.ajax({
-                            url: "ajax/tables/events_table.php",
-                            success: function (text) {
-                                $('#events_table_div').html(text);
-                            },
-                            error: function (xhr, ajaxOptions, thrownError) {
-                                alert(xhr.status + " " + thrownError);
-                            },
-
-                        });
-
-
-                        $.ajax({
-                            url: "ajax/tables/events_table.php",
-                            success: function (text) {
-                                $('#events_table_div').html(text);
-                            },
-                            error: function (xhr, ajaxOptions, thrownError) {
-                                alert(xhr.status + " " + thrownError);
-                            },
-
-                        });
+                         location.reload();
 
 
                     } else {

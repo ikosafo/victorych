@@ -129,6 +129,7 @@ if (!isset($_SESSION['username'])) {
             </div>
             <nav class="main-menu">
                 <ul class="nav metismenu">
+
                     <li class="sidebar-header"><span>MAIN</span></li>
 
                     <li class="<?php echo($_SERVER['PHP_SELF'] == "/administrator/index.php"
@@ -141,28 +142,12 @@ if (!isset($_SESSION['username'])) {
                         <a href="events.php"><i class="icon-calendar"></i><span>Events</span></a>
                     </li>
 
-
-                    <li class="<?php echo($_SERVER['PHP_SELF'] == "/ad/documents.php"
+                    <li class="<?php echo($_SERVER['PHP_SELF'] == "/administrator/scriptures.php"
                         ? "active" : ""); ?> nav-dropdown">
-                        <a href="documents.php"><i class="icon dripicons-folder-open"></i><span>Documents</span></a>
+                        <a href="scriptures.php"><i class="icon dripicons-blog"></i><span>Bible Scriptures</span></a>
                     </li>
 
 
-                    <li class="<?php echo(
-                    $_SERVER['PHP_SELF'] == "/cv_admin/view_members.php" ||
-                    $_SERVER['PHP_SELF'] == "/cv_admin/new_converts.php" ||
-                    $_SERVER['PHP_SELF'] == "/cv_admin/visitors.php" ||
-                    $_SERVER['PHP_SELF'] == "/cv_admin/print_forms.php"
-                        ? "active" : ""); ?> nav-dropdown">
-                        <a class="has-arrow" href="#" aria-expanded="false"><i class="icon icon-people"></i><span>Membership</span></a>
-                        <ul class="collapse nav-sub">
-
-                            <li><a href="view_members.php"><span>View Members</span></a></li>
-                            <li><a href="new_converts.php"><span>New Converts</span></a></li>
-                            <li><a href="visitors.php"><span>Visitors</span></a></li>
-                            <li><a href="print_forms.php"><span>Print Forms</span></a></li>
-                        </ul>
-                    </li>
                     <li class="sidebar-header"><span>OTHERS</span></li>
                     <li class="<?php echo(
                     $_SERVER['PHP_SELF'] == "/cv_admin/attendance_service.php" ||

@@ -97,6 +97,9 @@
 
                 <div class="three-fourth">
                     <div class="fx custom-carousel-1">
+
+
+
                         <div class="item">
                             <div class="overlay">
                                 <span class="time">February 6, 2017</span>
@@ -108,6 +111,8 @@
                             </div>
                             <img src="assets/img/events/pic%20(1).jpg" alt="">
                         </div>
+
+
 
                         <div class="item">
                             <div class="overlay">

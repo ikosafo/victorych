@@ -22,12 +22,14 @@ if ($count == "0") {
 
     $mysqli->query("INSERT INTO `events`
             (`eventname`,
+             `eventid`,
              `eventdate`,
              `eventdateto`,
              `eventtime`,
              `eventvenue`,
              `eventdescription`)
 VALUES ('$event_name',
+        '$event_id',
         '$event_date',
         '$event_dateto',
         '$event_time',
