@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da7e53f6-06ff-4d3c-89c7-747a7823a195" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/administrator/ajax/queries/saveform_pastors.php" afterPath="$PROJECT_DIR$/administrator/ajax/queries/saveform_pastors.php" />
       <change beforePath="$PROJECT_DIR$/administrator/includes/header.php" afterPath="$PROJECT_DIR$/administrator/includes/header.php" />
-      <change beforePath="$PROJECT_DIR$/pastors.php" afterPath="$PROJECT_DIR$/pastors.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,75 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="pastors.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/pastors.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="60" column="43" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pastors_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/pastors_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#347#377#0#HTML" expanded="true" />
-                <element signature="e#1522#1552#0#HTML" expanded="true" />
-                <marker date="1561565155963" expanded="true" signature="70:107" ph="select * fro... pastors" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_pastor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/delete_pastor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-              <folding>
-                <marker date="1561565099493" expanded="true" signature="98:146" ph="select * fro... pastors" />
-                <marker date="1561565099493" expanded="true" signature="325:367" ph="delete from pastors... " />
-                <marker date="1561565099493" expanded="true" signature="362:367" ph="delete from events... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_event.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/delete_event.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <marker date="1561546940284" expanded="true" signature="97:143" ph="select * fro... events" />
-                <marker date="1561546940284" expanded="true" signature="322:362" ph="delete from events... " />
-                <marker date="1561546940284" expanded="true" signature="358:362" ph="delete from homeslider... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/events_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-              <folding>
-                <marker date="1561546940119" expanded="true" signature="68:104" ph="select * fro... events" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pastors_form.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pastors_form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/pastors_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="25" column="87" lean-forward="false" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+            <state relative-caret-position="149">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#button#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -91,16 +27,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saveform_pastors.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_pastors.php">
+      <file leaf-file-name="gallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="625">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/gallery_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="42" column="108" lean-forward="false" selection-start-line="42" selection-start-column="108" selection-end-line="42" selection-end-column="108" />
               <folding>
-                <marker date="1561564747584" expanded="true" signature="303:356" ph="select * fro... pastors" />
-                <marker date="1561564747584" expanded="true" signature="438:628" ph="INSERT INTO `pastors`... " />
-                <marker date="1561564747584" expanded="true" signature="720:862" ph="UPDATE `pastorss`... " />
-                <marker date="1561564747584" expanded="true" signature="858:862" ph="UPDATE `events`... " />
+                <element signature="e#352#382#0#HTML" expanded="true" />
+                <element signature="e#1850#1880#0#HTML" expanded="true" />
+                <marker date="1561568044399" expanded="true" signature="69:112" ph="select * fro... eventgallery" />
+                <marker date="1561568044399" expanded="true" signature="1016:1037" ph="select * fro... gallery" />
+                <marker date="1561568044399" expanded="true" signature="1016:1068" ph="select * fro... gallery" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/events_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="94" column="53" lean-forward="true" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
+              <folding>
+                <marker date="1561546940119" expanded="true" signature="68:104" ph="select * fro... events" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/gallery_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="583">
+              <caret line="62" column="10" lean-forward="true" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#button#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saveform_gallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <marker date="1561567112511" expanded="true" signature="209:262" ph="select * fro... gallery" />
+                <marker date="1561567112511" expanded="true" signature="344:482" ph="INSERT INTO `gallery`... " />
+                <marker date="1561567112511" expanded="true" signature="574:667" ph="UPDATE `gallery`... " />
+                <marker date="1561567112511" expanded="true" signature="663:667" ph="UPDATE `pastors`... " />
               </folding>
             </state>
           </provider>
@@ -122,16 +109,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload_pastors.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/upload_pastors.php">
+      <file leaf-file-name="saveform_pastors.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_pastors.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+            <state relative-caret-position="864">
+              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
               <folding>
-                <marker date="1561564937288" expanded="true" signature="830:879" ph="select * fro... pastors" />
-                <marker date="1561564937288" expanded="true" signature="974:1272" ph="INSERT INTO `pastors`... " />
-                <marker date="1561564937288" expanded="true" signature="1342:1393" ph="select * fro... pastors" />
-                <marker date="1561564937288" expanded="true" signature="1789:1804" ph="UPDATE `pastors`... " />
+                <marker date="1561566428684" expanded="true" signature="303:356" ph="select * fro... pastors" />
+                <marker date="1561566428684" expanded="true" signature="438:628" ph="INSERT INTO `pastors`... " />
+                <marker date="1561566428684" expanded="true" signature="720:861" ph="UPDATE `pastorss`... " />
+                <marker date="1561566428684" expanded="true" signature="857:861" ph="UPDATE `events`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload_gallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/upload_gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <marker date="1561566672355" expanded="true" signature="844:1142" ph="INSERT INTO `gallery`... " />
+                <marker date="1561566672355" expanded="true" signature="887:1142" ph="INSERT INTO `events`... " />
               </folding>
             </state>
           </provider>
@@ -140,8 +140,8 @@
       <file leaf-file-name="upload_event.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/upload_event.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+            <state relative-caret-position="694">
+              <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding>
                 <marker date="1561546340008" expanded="true" signature="824:870" ph="select * fro... events" />
                 <marker date="1561546340008" expanded="true" signature="965:1260" ph="INSERT INTO `events`... " />
@@ -157,7 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>src=&quot;js</find>
       <find>src=&quot;rs-plugin</find>
       <find>href=&quot;</find>
       <find>src=&quot;</find>
@@ -185,8 +184,9 @@
       <find>33.3</find>
       <find>ss</find>
       <find>rss</find>
-      <find>event</find>
       <find>events</find>
+      <find>pastors</find>
+      <find>event</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;assets/js</replace>
@@ -209,6 +209,7 @@
       <replace>33.3%</replace>
       <replace>32</replace>
       <replace>pastors</replace>
+      <replace>gallery</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -217,11 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/events.php" />
-        <option value="$PROJECT_DIR$/events_gallery.php" />
-        <option value="$PROJECT_DIR$/sermons.php" />
-        <option value="$PROJECT_DIR$/news.php" />
-        <option value="$PROJECT_DIR$/donate.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/administrator/homeslider.php" />
         <option value="$PROJECT_DIR$/administrator/index.php" />
@@ -262,12 +258,17 @@
         <option value="$PROJECT_DIR$/administrator/ajax/forms/branches_form.php" />
         <option value="$PROJECT_DIR$/pastors.php" />
         <option value="$PROJECT_DIR$/administrator/pastors.php" />
-        <option value="$PROJECT_DIR$/administrator/includes/header.php" />
-        <option value="$PROJECT_DIR$/administrator/ajax/queries/saveform_pastors.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/queries/upload_pastors.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/queries/delete_pastor.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/tables/pastors_table.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/forms/pastors_form.php" />
+        <option value="$PROJECT_DIR$/administrator/includes/header.php" />
+        <option value="$PROJECT_DIR$/administrator/gallery.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/forms/gallery_form.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/queries/saveform_pastors.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/queries/upload_gallery.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/queries/saveform_gallery.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/tables/gallery_table.php" />
       </list>
     </option>
   </component>
@@ -323,20 +324,6 @@
               <item name="victorych" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="administrator" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="forms" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="victorych" type="b2602c69:ProjectViewProjectNode" />
-              <item name="victorych" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="administrator" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="queries" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="victorych" type="b2602c69:ProjectViewProjectNode" />
-              <item name="victorych" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="administrator" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tables" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -382,12 +369,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560791197955</updated>
       <workItem from="1560791201121" duration="16932000" />
-      <workItem from="1561110581614" duration="29767000" />
+      <workItem from="1561110581614" duration="32494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46699000" />
+    <option name="totallyTimeSpent" value="49426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
@@ -444,52 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../church_it/cv_branch/ajax/queries/delete_welfare.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <marker date="1561234078344" expanded="true" signature="91:135" ph="delete from f_welfare... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../church_it/cv_admin/ajax/queries/loginaction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1560895834478" expanded="true" signature="219:348" ph="SELECT * FRO... users_adminmain" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/loginaction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <marker date="1561543836182" expanded="true" signature="219:338" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="225" column="22" lean-forward="false" selection-start-line="225" selection-start-column="22" selection-end-line="225" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_homeslider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -858,55 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="168" column="67" lean-forward="false" selection-start-line="168" selection-start-column="67" selection-end-line="168" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-          <folding>
-            <marker date="1561547520122" expanded="true" signature="587:626" ph="select * fro... events" />
-            <marker date="1561547520122" expanded="true" signature="587:635" ph="select * fro... events" />
-            <marker date="1561547520122" expanded="true" signature="717:1096" ph="INSERT INTO `events`... " />
-            <marker date="1561547520122" expanded="true" signature="1188:1446" ph="UPDATE `events`... " />
-            <marker date="1561547520122" expanded="true" signature="1445:1446" ph="UPDATE `homeslider`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/upload_event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
-          <folding>
-            <marker date="1561546340008" expanded="true" signature="824:870" ph="select * fro... events" />
-            <marker date="1561546340008" expanded="true" signature="965:1260" ph="INSERT INTO `events`... " />
-            <marker date="1561546340008" expanded="true" signature="1330:1378" ph="select * fro... events" />
-            <marker date="1561546340008" expanded="true" signature="1591:1786" ph="UPDATE `events`... " />
-            <marker date="1561546340008" expanded="true" signature="1771:1786" ph="UPDATE `homeslider`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_pastors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-          <folding>
-            <marker date="1561564747584" expanded="true" signature="303:356" ph="select * fro... pastors" />
-            <marker date="1561564747584" expanded="true" signature="438:628" ph="INSERT INTO `pastors`... " />
-            <marker date="1561564747584" expanded="true" signature="720:862" ph="UPDATE `pastorss`... " />
-            <marker date="1561564747584" expanded="true" signature="858:862" ph="UPDATE `events`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/upload_pastors.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -916,24 +808,6 @@
             <marker date="1561564937288" expanded="true" signature="974:1272" ph="INSERT INTO `pastors`... " />
             <marker date="1561564937288" expanded="true" signature="1342:1393" ph="select * fro... pastors" />
             <marker date="1561564937288" expanded="true" signature="1789:1804" ph="UPDATE `pastors`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/pastors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="60" column="43" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/events_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <marker date="1561546940119" expanded="true" signature="68:104" ph="select * fro... events" />
           </folding>
         </state>
       </provider>
@@ -974,13 +848,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="173" column="67" lean-forward="false" selection-start-line="173" selection-start-column="67" selection-end-line="173" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/pastors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/pastors_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="25" column="87" lean-forward="false" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+        <state relative-caret-position="149">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#button#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#button#0;n#div#3;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <marker date="1561547520122" expanded="true" signature="587:626" ph="select * fro... events" />
+            <marker date="1561547520122" expanded="true" signature="587:635" ph="select * fro... events" />
+            <marker date="1561547520122" expanded="true" signature="717:1096" ph="INSERT INTO `events`... " />
+            <marker date="1561547520122" expanded="true" signature="1188:1446" ph="UPDATE `events`... " />
+            <marker date="1561547520122" expanded="true" signature="1445:1446" ph="UPDATE `homeslider`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_pastors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <marker date="1561566428684" expanded="true" signature="303:356" ph="select * fro... pastors" />
+            <marker date="1561566428684" expanded="true" signature="438:628" ph="INSERT INTO `pastors`... " />
+            <marker date="1561566428684" expanded="true" signature="720:861" ph="UPDATE `pastorss`... " />
+            <marker date="1561566428684" expanded="true" signature="857:861" ph="UPDATE `events`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/gallery_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="62" column="10" lean-forward="true" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#button#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/upload_event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <marker date="1561546340008" expanded="true" signature="824:870" ph="select * fro... events" />
+            <marker date="1561546340008" expanded="true" signature="965:1260" ph="INSERT INTO `events`... " />
+            <marker date="1561546340008" expanded="true" signature="1330:1378" ph="select * fro... events" />
+            <marker date="1561546340008" expanded="true" signature="1591:1786" ph="UPDATE `events`... " />
+            <marker date="1561546340008" expanded="true" signature="1771:1786" ph="UPDATE `homeslider`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/upload_gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1561566672355" expanded="true" signature="844:1142" ph="INSERT INTO `gallery`... " />
+            <marker date="1561566672355" expanded="true" signature="887:1142" ph="INSERT INTO `events`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1561567112511" expanded="true" signature="209:262" ph="select * fro... gallery" />
+            <marker date="1561567112511" expanded="true" signature="344:482" ph="INSERT INTO `gallery`... " />
+            <marker date="1561567112511" expanded="true" signature="574:667" ph="UPDATE `gallery`... " />
+            <marker date="1561567112511" expanded="true" signature="663:667" ph="UPDATE `pastors`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/events_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="94" column="53" lean-forward="true" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
+          <folding>
+            <marker date="1561546940119" expanded="true" signature="68:104" ph="select * fro... events" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/gallery_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="42" column="108" lean-forward="false" selection-start-line="42" selection-start-column="108" selection-end-line="42" selection-end-column="108" />
+          <folding>
+            <element signature="e#352#382#0#HTML" expanded="true" />
+            <element signature="e#1850#1880#0#HTML" expanded="true" />
+            <marker date="1561568044399" expanded="true" signature="69:112" ph="select * fro... eventgallery" />
+            <marker date="1561568044399" expanded="true" signature="1016:1037" ph="select * fro... gallery" />
+            <marker date="1561568044399" expanded="true" signature="1016:1068" ph="select * fro... gallery" />
           </folding>
         </state>
       </provider>

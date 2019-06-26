@@ -30,7 +30,7 @@ VALUES ('$pastors_name',
 
 } else {
 
-    $mysqli->query("UPDATE `pastorss`
+    $mysqli->query("UPDATE `pastors`
 SET 
   `pastorsname` = '$pastors_name',
   `pastorsdescription` = '$pastors_description'

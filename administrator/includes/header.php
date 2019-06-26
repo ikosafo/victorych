@@ -169,6 +169,11 @@ if (!isset($_SESSION['username'])) {
                         <a href="pastors.php"><i class="icon-people"></i><span>Pastors</span></a>
                     </li>
 
+                    <li class="<?php echo($_SERVER['PHP_SELF'] == "/administrator/gallery.php"
+                        ? "active" : ""); ?> nav-dropdown">
+                        <a href="gallery.php"><i class="icon-camera"></i><span>Gallery</span></a>
+                    </li>
+
 
                     <li class="sidebar-header"><span>OTHERS</span></li>
                     <li class="<?php echo(
