@@ -182,6 +182,11 @@ if (!isset($_SESSION['username'])) {
 
                     <li class="sidebar-header"><span>OTHERS</span></li>
 
+                    <li class="<?php echo($_SERVER['PHP_SELF'] == "/administrator/users.php"
+                        ? "active" : ""); ?> nav-dropdown">
+                        <a href="users.php"><i class="icon dripicons-user-group"></i><span>Users</span></a>
+                    </li>
+
 
 
                     <li><a href="login.php"><i class="icon icon-logout"></i><span>Log Out</span></a>
