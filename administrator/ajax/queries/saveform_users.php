@@ -4,7 +4,7 @@ include('../../../config.php');
 
 $full_name = mysqli_real_escape_string($mysqli, $_POST['full_name']);
 $username = mysqli_real_escape_string($mysqli, $_POST['username']);
-$password = mysqli_real_escape_string($mysqli, $_POST['password']);
+$password = md5(mysqli_real_escape_string($mysqli, $_POST['password']));
 
 
 $chk = $mysqli->query("select * from users where username = '$username'");

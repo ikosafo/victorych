@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da7e53f6-06ff-4d3c-89c7-747a7823a195" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/administrator/ajax/queries/saveform_users.php" afterPath="$PROJECT_DIR$/administrator/ajax/queries/saveform_users.php" />
+      <change beforePath="$PROJECT_DIR$/administrator/ajax/tables/users_table.php" afterPath="$PROJECT_DIR$/administrator/ajax/tables/users_table.php" />
       <change beforePath="$PROJECT_DIR$/administrator/includes/header.php" afterPath="$PROJECT_DIR$/administrator/includes/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,16 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/includes/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="186" column="79" lean-forward="false" selection-start-line="186" selection-start-column="79" selection-end-line="186" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/users.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,7 +28,7 @@
       <file leaf-file-name="users_form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/users_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
+            <state relative-caret-position="608">
               <caret line="122" column="38" lean-forward="false" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -47,24 +38,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/users_table.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/administrator/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="517">
+              <caret line="273" column="70" lean-forward="false" selection-start-line="273" selection-start-column="70" selection-end-line="273" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saveform_users.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="saveform_users.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="459">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding>
-                <marker date="1561624701748" expanded="true" signature="271:319" ph="select * fro... users" />
-                <marker date="1561624701748" expanded="true" signature="401:582" ph="INSERT INTO `users`... " />
+                <marker date="1561625567272" expanded="true" signature="276:324" ph="select * fro... users" />
+                <marker date="1561625567272" expanded="true" signature="406:587" ph="INSERT INTO `users`... " />
               </folding>
             </state>
           </provider>
@@ -94,39 +85,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scriptures.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/scriptures.php">
+      <file leaf-file-name="users_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/users_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="71" column="10" lean-forward="true" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="donate_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/donate_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="26" />
+            <state relative-caret-position="243">
+              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
-                <marker date="1561570513947" expanded="true" signature="70:84" ph="select * fro... overseer" />
-                <marker date="1561570513947" expanded="true" signature="70:98" ph="select * fro... donate" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#button#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1561625362586" expanded="true" signature="68:130" ph="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saveform_donate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_donate.php">
+      <file leaf-file-name="delete_user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/delete_user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
               <folding>
-                <marker date="1561570595179" expanded="true" signature="145:173" ph="select * fro... donate" />
-                <marker date="1561570595179" expanded="true" signature="255:339" ph="INSERT INTO `donate`... " />
-                <marker date="1561570595179" expanded="true" signature="506:588" ph="UPDATE `donate`... " />
-                <marker date="1561570595179" expanded="true" signature="584:588" ph="UPDATE `overseer`... " />
+                <marker date="1561625166898" expanded="true" signature="87:125" ph="delete from users... " />
+                <marker date="1561625166898" expanded="true" signature="120:125" ph="delete from scriptures... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_scripture.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/delete_scripture.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scriptures_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/scriptures_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <marker date="1561558483378" expanded="true" signature="73:114" ph="select * fro... scriptures" />
               </folding>
             </state>
           </provider>
@@ -155,7 +157,6 @@
       <find>delete_about</find>
       <find>referee</find>
       <find>about</find>
-      <find>scripture</find>
       <find>30%</find>
       <find>33.3</find>
       <find>ss</find>
@@ -165,6 +166,7 @@
       <find>event</find>
       <find>homeslider</find>
       <find>overseer</find>
+      <find>scripture</find>
       <find>scriptures</find>
     </findStrings>
     <replaceStrings>
@@ -190,6 +192,7 @@
       <replace>pastors</replace>
       <replace>gallery</replace>
       <replace>donate</replace>
+      <replace>user</replace>
       <replace>users</replace>
     </replaceStrings>
   </component>
@@ -199,8 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/administrator/ajax/forms/homeslider_form.php" />
-        <option value="$PROJECT_DIR$/administrator/ajax/queries/loginaction.php" />
         <option value="$PROJECT_DIR$/administrator/login.php" />
         <option value="$PROJECT_DIR$/administrator/events.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/queries/upload_event.php" />
@@ -212,7 +213,6 @@
         <option value="$PROJECT_DIR$/assets/js/countdown-custom.js" />
         <option value="$PROJECT_DIR$/administrator/scriptures.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/queries/saveform_scriptures.php" />
-        <option value="$PROJECT_DIR$/administrator/ajax/queries/delete_scripture.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/forms/scriptures_form.php" />
         <option value="$PROJECT_DIR$/administrator/about_vic.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/forms/about_form.php" />
@@ -246,10 +246,13 @@
         <option value="$PROJECT_DIR$/administrator/donate.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/forms/donate_form.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/queries/saveform_donate.php" />
-        <option value="$PROJECT_DIR$/administrator/includes/header.php" />
         <option value="$PROJECT_DIR$/administrator/users.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/forms/users_form.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/queries/delete_scripture.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/queries/delete_user.php" />
+        <option value="$PROJECT_DIR$/administrator/ajax/tables/users_table.php" />
         <option value="$PROJECT_DIR$/administrator/ajax/queries/saveform_users.php" />
+        <option value="$PROJECT_DIR$/administrator/includes/header.php" />
       </list>
     </option>
   </component>
@@ -304,27 +307,6 @@
               <item name="victorych" type="b2602c69:ProjectViewProjectNode" />
               <item name="victorych" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="administrator" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="forms" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="victorych" type="b2602c69:ProjectViewProjectNode" />
-              <item name="victorych" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="administrator" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="queries" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="victorych" type="b2602c69:ProjectViewProjectNode" />
-              <item name="victorych" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="administrator" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tables" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="victorych" type="b2602c69:ProjectViewProjectNode" />
-              <item name="victorych" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="administrator" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -371,18 +353,18 @@
       <updated>1560791197955</updated>
       <workItem from="1560791201121" duration="16932000" />
       <workItem from="1561110581614" duration="35394000" />
-      <workItem from="1561623248630" duration="1439000" />
+      <workItem from="1561623248630" duration="3110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53765000" />
+    <option name="totallyTimeSpent" value="55436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23385416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -433,13 +415,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/about_form_edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2781">
@@ -494,20 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/scriptures_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2754">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/delete_scripture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -761,14 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="186" column="79" lean-forward="false" selection-start-line="186" selection-start-column="79" selection-end-line="186" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/scriptures.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
@@ -793,25 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/users_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="122" column="38" lean-forward="false" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#button#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_branches.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -824,14 +758,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/scriptures_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1561558483378" expanded="true" signature="73:114" ph="select * fro... scriptures" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/forms/users_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="122" column="38" lean-forward="false" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#button#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/delete_scripture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/delete_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <marker date="1561625166898" expanded="true" signature="87:125" ph="delete from users... " />
+            <marker date="1561625166898" expanded="true" signature="120:125" ph="delete from scriptures... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/ajax/tables/users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#button#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1561625362586" expanded="true" signature="68:130" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/ajax/queries/saveform_users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="459">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
-            <marker date="1561624701748" expanded="true" signature="271:319" ph="select * fro... users" />
-            <marker date="1561624701748" expanded="true" signature="401:582" ph="INSERT INTO `users`... " />
+            <marker date="1561625567272" expanded="true" signature="276:324" ph="select * fro... users" />
+            <marker date="1561625567272" expanded="true" signature="406:587" ph="INSERT INTO `users`... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="273" column="70" lean-forward="false" selection-start-line="273" selection-start-column="70" selection-end-line="273" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
