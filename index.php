@@ -1,20 +1,20 @@
-<?php include ('includes/header.php');
+<?php include('includes/header.php');
 
 //include ('config.php');
 
 ?>
-    <!-- slider -->
-    <div id="slider">
-        <!-- revolution slider begin -->
-        <div class="fullwidthbanner-container">
-            <div id="revolution-slider">
-                <ul>
-<?php
-                    $getslider = $mysqli->query("select * from homeslider ORDER by period");
+<!-- slider -->
+<div id="slider">
+    <!-- revolution slider begin -->
+    <div class="fullwidthbanner-container">
+        <div id="revolution-slider">
+            <ul>
+                <?php
+                $getslider = $mysqli->query("select * from homeslider ORDER by period");
 
-                        while ($resslider = $getslider->fetch_assoc()) {
+                while ($resslider = $getslider->fetch_assoc()) {
 
-    ?>
+                    ?>
 
                     <li data-transition="fade" data-slotamount="10" data-masterspeed="1500">
                         <!--  BACKGROUND IMAGE -->
@@ -71,168 +71,147 @@
                         </div>
                     </li>
 
-<?php } ?>
+                <?php } ?>
 
-                </ul>
+            </ul>
+        </div>
+    </div>
+    <!-- revolution slider close -->
+</div>
+<!-- slider close -->
+
+<div class="clearfix"></div>
+
+<!-- content begin -->
+<div id="content" class="no-padding">
+
+    <!-- section begin -->
+    <section id="page-events" class="no-padding">
+        <div class="fullwidth">
+            <div class="one-fourth text-center">
+                <div class="title-area wow slideInLeft">
+                    <span>Upcoming</span>
+                    <h1>Events</h1>
+                </div>
+            </div>
+
+            <div class="three-fourth">
+                <div class="fx custom-carousel-1">
+
+
+                    <?php $getevent = $mysqli->query("select * from events ORDER BY eventdate DESC");
+
+                    while ($resevent = $getevent->fetch_assoc()) {
+                        ?>
+
+                        <div class="item">
+                            <div class="overlay">
+                                    <span class="time">
+                                        <?php echo date('F j, Y', strtotime($resevent['eventdate'])); ?>
+                                    </span>
+                                <a href="events.php">
+                                    <h3>
+                                        <?php echo $resevent['eventname']; ?>
+                                    </h3>
+                                </a>
+                                <span class="desc">
+                                        <?php echo $resevent['eventdescription']; ?>
+                                    </span>
+                            </div>
+                            <img src="<?php echo $resevent['imagelocation'] ?>" alt="">
+                        </div>
+
+                    <?php } ?>
+
+
+                </div>
             </div>
         </div>
-        <!-- revolution slider close -->
-    </div>
-    <!-- slider close -->
+        <div class="clearfix"></div>
 
-    <div class="clearfix"></div>
+    </section>
+    <!-- section close -->
 
-    <!-- content begin -->
-    <div id="content" class="no-padding">
+    <!-- section begin -->
+    <section id="countdown-container" data-speed="5" data-type="background">
+        <div class="container">
+            <div class="row text-center">
 
-        <!-- section begin -->
-        <section id="page-events" class="no-padding">
-            <div class="fullwidth">
-                <div class="one-fourth text-center">
-                    <div class="title-area wow slideInLeft">
-                        <span>Upcoming</span>
-                        <h1>Events</h1>
-                    </div>
+                <?php $getevent1 = $mysqli->query("select * from events ORDER BY eventdate DESC LIMIT 1");
+                $resevent1 = $getevent1->fetch_assoc();
+
+                $year = date('Y', strtotime($resevent1['eventdate']));
+                $month = date('m', strtotime($resevent1['eventdate']));
+                $day = date('d', strtotime($resevent1['eventdate']));
+                $time = date('h', strtotime($resevent1['eventtime']));
+
+
+                ?>
+
+
+                <div class="col-md-6 wow fadeInLeft">
+                    <h3><?php echo $resevent1['eventname']; ?></h3>
+                    <span class="time"><?php echo date('F j, Y', strtotime($resevent1['eventdate'])) . ' ' . date('h:i a', strtotime($resevent1['eventtime'])); ?>
+                            </span>
                 </div>
 
-                <div class="three-fourth">
-                    <div class="fx custom-carousel-1">
+                <div class="col-md-6 wow fadeInRight" data-wow-delay=".25s">
+                    <div id="eventCount"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section close -->
 
 
+    <!-- section begin -->
+    <section id="section-testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div id="testi-carousel" class="testi-slider text-center wow fadeInUp">
 
-                        <div class="item">
-                            <div class="overlay">
-                                <span class="time">February 6, 2017</span>
-                                <a href="assets/#">
-                                    <h3>Family Baptism Class</h3>
-                                </a>
-                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                                    </span>
-                            </div>
-                            <img src="assets/img/events/pic%20(1).jpg" alt="">
-                        </div>
+       <?php $getverse = $mysqli->query("select * from scriptures ORDER BY id DESC");
+            while ($resverse = $getverse->fetch_assoc()){
 
-
-
-                        <div class="item">
-                            <div class="overlay">
-                                <span class="time">February 10, 2017</span>
-                                <a href="assets/#">
-                                    <h3>Transforming Live</h3>
-                                </a>
-                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                                    </span>
-                            </div>
-                            <img src="assets/img/events/pic%20(2).jpg" alt="">
-                        </div>
+       ?>
 
                         <div class="item">
-                            <div class="overlay">
-                                <span class="time">February 20, 2017</span>
-                                <a href="assets/#">
-                                    <h3>Relationship With God</h3>
-                                </a>
-                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                                    </span>
-                            </div>
-                            <img src="assets/img/events/pic%20(3).jpg" alt="">
+                            <img src="assets/img/testi/pic%20(1).jpg" alt="" class="img-circle">
+                            <blockquote>
+                                <?php echo $resverse['biblequote'] ?>
+                            </blockquote>
+                            <span class="testi-by"><?php echo $resverse['bibleverse'] ?></span>
                         </div>
 
-                        <div class="item">
-                            <div class="overlay">
-                                <span class="time">February 26, 2017</span>
-                                <a href="assets/#">
-                                    <h3>Abundant Life</h3>
-                                </a>
-                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                                    </span>
-                            </div>
-                            <img src="assets/img/events/pic%20(4).jpg" alt="">
-                        </div>
-
-                        <div class="item">
-                            <div class="overlay">
-                                <span class="time">March 1, 2017</span>
-                                <a href="assets/#">
-                                    <h3>God is Good</h3>
-                                </a>
-                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                                    </span>
-                            </div>
-                            <img src="assets/img/events/pic%20(5).jpg" alt="">
-                        </div>
-
-                        <div class="item">
-                            <div class="overlay">
-                                <span class="time">March 10, 2017</span>
-                                <a href="assets/#">
-                                    <h3>Jehovah Jireh</h3>
-                                </a>
-                                <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                                    </span>
-                            </div>
-                            <img src="assets/img/events/pic%20(6).jpg" alt="">
-                        </div>
+       <?php } ?>
 
                     </div>
                 </div>
             </div>
-            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- section close -->
 
-        </section>
-        <!-- section close -->
+</div>
+<!-- footer begin -->
 
-        <!-- section begin -->
-        <section id="countdown-container" data-speed="5" data-type="background">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-6 wow fadeInLeft">
-                        <h3>Transforming Live, Restoring Hope</h3>
-                        <span class="time">April 10, 2017 8:00 pm</span>
-                    </div>
-
-                    <div class="col-md-6 wow fadeInRight" data-wow-delay=".25s">
-                        <div id="defaultCountdown"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- section close -->
+<?php include('includes/bottom.php'); ?>
 
 
-        <!-- section begin -->
-        <section id="section-testimonial">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div id="testi-carousel" class="testi-slider text-center wow fadeInUp">
-                            <div class="item">
-                                <img src="assets/img/testi/pic%20(1).jpg" alt="" class="img-circle">
-                                <blockquote>Blessing theme has a real desire and heart for ministry within the local church</blockquote>
-                                <span class="testi-by">Aline Drummond</span>
-                            </div>
-                            <div class="item">
-                                <img src="assets/img/testi/pic%20(2).jpg" alt="" class="img-circle">
-                                <blockquote>I Just wanted to let you know how pleased we are and how great the Blessing theme is working for our National Church </blockquote>
-                                <span class="testi-by">Mortimer Elmo</span>
-                            </div>
-                            <div class="item">
-                                <img src="assets/img/testi/pic%20(3).jpg" alt="" class="img-circle">
-                                <blockquote>
-                                    Get in touch with Blessing theme today and get ready to see your church grow!
+<script>
 
-                                </blockquote>
-                                <span class="testi-by">Marina Leopold</span>
-                            </div>
+    jQuery(document).ready(function () {
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- section close -->
+        var year = '<?php echo $year; ?>';
+        var month = '<?php echo $month; ?>';
+        var day = '<?php echo $day; ?>';
+        var time = '<?php echo $time; ?>';
 
-    </div>
-    <!-- footer begin -->
+        $(function () {
+            $('#eventCount').countdown({until: new Date(year, month - 1, day, time)}); // year, month, date, hour
+        });
+    });
 
-<?php include ('includes/bottom.php'); ?>
+
+</script>

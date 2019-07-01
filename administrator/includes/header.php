@@ -154,6 +154,11 @@ if (!isset($_SESSION['username'])) {
                         <a href="about_vic.php"><i class="icon dripicons-home"></i><span>About VIC</span></a>
                     </li>
 
+                    <li class="<?php echo($_SERVER['PHP_SELF'] == "/administrator/history.php"
+                        ? "active" : ""); ?> nav-dropdown">
+                        <a href="history.php"><i class="icon dripicons-home"></i><span>VIC History</span></a>
+                    </li>
+
                     <li class="<?php echo($_SERVER['PHP_SELF'] == "/administrator/overseer.php"
                         ? "active" : ""); ?> nav-dropdown">
                         <a href="overseer.php"><i class="icon dripicons-user"></i><span>Overseer Message</span></a>
