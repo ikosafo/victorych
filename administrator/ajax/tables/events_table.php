@@ -1,6 +1,6 @@
 <?php include ('../../../config.php');
 
-$getevent = $mysqli->query("select * from events ORDER by period");
+$getevent = $mysqli->query("select * from events ORDER by period DESC");
 
 
 ?>

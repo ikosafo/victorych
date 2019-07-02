@@ -20,18 +20,23 @@
     <section id="section-text-2" class="no-padding-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 wow fadeInLeft" data-wow-delay=".5s">
+                <div class="col-md-8 wow fadeInLeft" data-wow-delay=".5s">
                     <h1>History</h1>
 
 
+                    <?php
 
-                    <p class="wow fadeIn" data-wow-delay='1.5s'>
-                        <img src="assets/img/misc/pic-5.png" alt="">
-                    </p>
+             $gethistory = $mysqli->query("select * from history LIMIT 1");
+             $reshistory = $gethistory->fetch_assoc();
+
+             echo $reshistory['message']
+
+                    ?>
+
 
                 </div>
 
-                <div class="col-md-6 wow fadeInUp">
+                <div class="col-md-4 wow fadeInUp">
                     <img src="assets/img/misc/pic-4.png" class="img-responsive" alt="">
                 </div>
             </div>

@@ -20,88 +20,27 @@
     <section id="section-text-2" class="no-padding-bottom">
         <div class="container">
             <div class="row">
-                <!-- event item begin -->
-                <div class="col-md-6 event-item">
 
-                    <div class="desc">
-                        <a href="#">
-                            <h3>Branch Name</h3>
-                        </a>
-                        <span class="text">
-                            Brief Description on branch
-                            </span>
-                    </div>
-                </div>
-                <!-- event item close -->
+<?php
 
-                <!-- event item begin -->
-                <div class="col-md-6 event-item">
-
-                    <div class="desc">
-                        <a href="#">
-                            <h3>Transforming Live</h3>
-                        </a>
-                        <span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                            </span>
-                    </div>
-                </div>
-                <!-- event item close -->
-
-                <!-- event item begin -->
-                <div class="col-md-6 event-item">
-
-                    <div class="desc">
-                        <a href="#">
-                            <h3>Relationship With God</h3>
-                        </a>
-                        <span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                            </span>
-                    </div>
-                </div>
-                <!-- event item close -->
-
-                <!-- event item begin -->
-                <div class="col-md-6 event-item">
-
-                    <div class="desc">
-                        <a href="#">
-                            <h3>Abundant Live</h3>
-                        </a>
-                        <span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                            </span>
-                    </div>
-                </div>
-                <!-- event item close -->
-
-                <!-- event item begin -->
-                <div class="col-md-6 event-item">
-
-                    <div class="desc">
-                        <a href="#">
-                            <h3>God is Good</h3>
-                        </a>
-                        <span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                            </span>
-                    </div>
-                </div>
-                <!-- event item close -->
+  $getbranch = $mysqli->query("select * from branches ORDER BY branchname");
+  while ($resbranch = $getbranch->fetch_assoc()) { ?>
 
 
-                <!-- event item begin -->
-                <div class="col-md-6 event-item">
+      <!-- event item begin -->
+      <div class="col-md-6 event-item">
+          <div class="desc">
+              <a href="#">
+                  <h3><?php echo $resbranch['branchname'] ?></h3>
+              </a>
+              <span class="text">
+                            <?php echo $resbranch['description'] ?>
+                        </span>
+          </div>
+      </div>
+      <!-- event item close -->
 
-                    <div class="desc">
-                        <a href="#">
-                            <h3>Jehovah Jireh</h3>
-                        </a>
-                        <span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                            </span>
-                    </div>
-                </div>
-                <!-- event item close -->
+      <?php } ?>
 
 
             </div>
